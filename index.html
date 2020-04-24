@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inicia session </h1>
+    <button id="loginGoogle">
+        inicia con google
+    </button>
+
+    <button id="loginFacebook">
+      inicia con Facebook
+   </button>
+  
+
+    <div id="root"> 
+      
+      <img id="avatar" src="" alt="">
+    
+    </div>
+    
+   <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+  </script>
+  
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
+
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAvbMuhALweNQLm_c8Z_p6GOOI4Z16bc0w",
+    authDomain: "myapp-898f4.firebaseapp.com",
+    databaseURL: "https://myapp-898f4.firebaseio.com",
+    projectId: "myapp-898f4",
+    storageBucket: "myapp-898f4.appspot.com",
+    messagingSenderId: "940892394936",
+    appId: "1:940892394936:web:13a81b3965196436f82b4d",
+    measurementId: "G-F21D3TY8T0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+ 
+</script>
+
+
+
+
+
+<script src="app.js"></script> 
+
+</body>
+
+
+</html>
